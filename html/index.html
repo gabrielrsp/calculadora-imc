@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+     
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body class="grey lighten-4">
+    <div class="container-fluid red lighten-1 white-text">
+        <div class="row">
+            <div class="col s12 center">
+                <h1>Calculadora de IMC</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col m3 l4"></div>
+            <div class="col s12 m6 l4 center-align">
+                <div class="card-panel">
+                    <form id="formulario">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <div class="row">
+                                        <div class="input-field col s10">
+                                            <input id="peso" type="text" class="validate">
+                                            <label for="peso">Peso</label>
+                                        </div>
+                                        <div class="col s2 left-align" style="margin-top:20px;">
+                                            <p style="margin-bottom:0">Kg</p>
+                                        </div> 
+                                </div>
+                            </div>
+                            <div class="input-field col s12">
+                                    <div class="row">
+                                            <div class="input-field col s10">
+                                                <input id="altura" type="text" class="validate">
+                                                <label for="altura">Altura</label>
+                                            </div>
+                                            <div class="col s2 left-align" style="margin-top:20px;">
+                                                <p style="margin-bottom:0">cm</p>
+                                            </div> 
+                                    </div>
+                                </div>
+                            <div class="col-12 left-align" style="padding:0 .75rem">
+                                <p>Resultado: <span id="resultado"></span></p>
+                                <p >Situação: <span id="situacao" ></span></p>
+                            </div>
+                        </div>
+                        
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="col m3 l4"></div>
+            
+
+            
+          </div>
+    </div>
+</body>
+<!-- Compiled and minified JavaScript -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="../js/materialize.min.js"></script> 
+<script src="../js/imc.js"></script>    
+<script src="../js/index.js"></script>
+</html>

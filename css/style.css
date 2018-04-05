@@ -1,0 +1,25 @@
+form .row{
+    margin: 0;
+}
+
+.input-field{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.placeholder-error::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: red;
+    opacity: 1;
+}
+.placeholder-error::-moz-placeholder { /* Firefox 19+ */
+    color: red;
+    opacity: 1;
+}
+.placeholder-error:-ms-input-placeholder { /* IE 10+ */
+    color: red;
+    opacity: 1;
+}
+.placeholder-error:-moz-placeholder { /* Firefox 18- */
+    color: red;
+    opacity: 1;
+}
