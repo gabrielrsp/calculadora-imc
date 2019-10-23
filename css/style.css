@@ -8,18 +8,18 @@ form .row{
 }
 
 .placeholder-error::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: red;
+    color: orangered;
     opacity: 1;
 }
 .placeholder-error::-moz-placeholder { /* Firefox 19+ */
-    color: red;
+    color: orangered;
     opacity: 1;
 }
 .placeholder-error:-ms-input-placeholder { /* IE 10+ */
-    color: red;
+    color: orangered;
     opacity: 1;
 }
 .placeholder-error:-moz-placeholder { /* Firefox 18- */
-    color: red;
+    color: orangered;
     opacity: 1;
 }
